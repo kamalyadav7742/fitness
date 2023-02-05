@@ -1,0 +1,964 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Fitness</title>
+
+  <!-- jsdeliver link -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+  <!-- icon link -->
+  <link rel="icon" href="../Logo/banner5.jpg">
+
+  <!-- cdn link -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- link css -->
+    <link rel="stylesheet" type="text/css" href="project.css">
+
+
+    <!-- jquery -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <!-- animation CDN -->
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+
+</head>
+<body >
+  
+
+  <!-- navbar -->
+
+  <nav class="navbar navbar-expand-lg bg-dark pt-4 fixed-top">
+
+    <div class="container-fluid ">
+      <a class="navbar-brand" href="#">
+
+        <img src="../Logo/logo.png" style="width: 128px; height: 23px;">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+      data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+
+        <ul class="navbar-nav ms-3 mb-lg-0 ">
+          <li class="nav-item">
+            <a class="nav-link active " aria-current="page" href="#">
+              <p class="p">Home</p>
+            </a>
+          </li>
+
+          <li class="nav-item word">
+            <a class="nav-link" href="contactus.html" target="_blank">
+
+              <p class="p ">Contact us</p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="pricelist.html" target="_blank">
+              <p class="p">Pricing</p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="clasess.html" target="_blank">
+              <p class="p">Online classes</p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="ourlocation.html" target="_blank">
+              <pm class="p"> Our Location</p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="aboutus.html" target="_blank">
+              <p class="p">About Us</p>
+            </a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle p" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Classes</a>
+
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="clasess.html" target="_blank">Payble Classes</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#" target="_blank">Free Classes</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="clasess.html" target="_blank">Online Classes</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link " href="#">
+
+
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <p class="p1"></p>
+
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="profile.html" target="_blank">
+              <i class="fa-regular fa-user p me-2 icon"></i><span class="p1">Get Started</span>
+
+            </a>
+          </li>
+
+
+
+
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- banner start -->
+
+
+  <div class="container-fluid-md">
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+
+      <!-- Indicators -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+
+      <div class="carousel-inner">
+        <div class="carousel-item ">
+          <img src="../Logo/banner5.jpg " class="d-block w-100 img-fluid">
+          <div class="carousel-caption d-none d-md-block">
+            <div class="box1 ">
+              <p class="p7"> JOIN US NOW</p>
+              <p class="p8">FITNESS & SPORTS</p>
+              <button type="button" class="btn btn-outline-primary sizebt" > Read more</button>
+
+
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item active">
+
+          <img src="../Logo/banner2.jpg" class="d-block w-100 img-fluid ">
+          <div class="carousel-caption d-none d-md-block">
+            <div class="box1">
+              <p class="p3">MY BODY,<span style="color: rgb(255, 0, 0); font-weight: 700;"> MY MIND</span><br>
+                MY LIFE</p>
+              <p class="p4">MYFITNESS SUITES</p>
+              <button type="button" class="btn btn-outline-light sizebt">Book CLasses</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="../Logo/banner3.jpg" class="d-block w-100 img-fluid;">
+          <div class="carousel-caption d-none d-md-block">
+            <div class="box1">
+              <p class="p5"> <span style="color:red; font-weight: 700;">WELCOME</span> TO THE ONLY GYM YOU NEED. 
+               </p>
+              <p class="p6">Yoga / Fitness / Safety / Water Awareness</p>
+              <button type="button" class="btn btn-outline-danger sizebt1">Get Started</button>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- jump your start -->
+
+
+  <div class="row">
+
+    <div class="col-md-6 img4" id="card-one" >
+      <img src="../Logo/mid2 (1).jpg" class="img-fluid .shake" id="img2">
+
+    </div>
+
+    <div class="col-md-5 ms-4" id="card-tw">
+      <p class="p11">JUMPSTART YOUR JOURNEY</p>
+
+      <p class="p12">Sweat FXBG is more than another workout, it's a comprehensive approach to fitness. We pair the
+        ultimate strength and cardio workouts with experiential lighting, sound, and luxury amenities. Achieve your
+        desired fitness goals with a mix of HIIT, Cycle, Barre, Row, Yoga, and more.</p>
+
+      <a class="nav-link" href="#" target="_blank">
+        <p class="p13">The Workout<i class="fa-solid fa-chevron-right " id="icon2">
+
+          </i>
+        </p>
+      </a>
+      <hr>
+
+    </div>
+    </div>
+
+
+    <div class="row">
+      <hr>
+      <div class="col-md-6" id="card-three">
+        <p class="p14">TRANSFORM YOUR<br>
+          FITNESS</p>
+
+        <p class="p15">4 rooms, 5 unique workouts, 1 location. Sweat FXBG offers unrivaled fitness programming. 
+           Personal workout stations allow for a safe and comfortable experience. Small class sizes offer a greater 
+            level of instructor and group engagement.</p>
+
+        <a class="nav-link" href="#">
+          <p class="p13">Why SWEAT ?<i class="fa-solid fa-chevron-right " id="icon2">
+
+            </i>
+          </p>
+        </a>
+        <hr>
+
+      </div>
+      <div class="col-md-6 img4" id="card-four">
+        <img src="../Logo/mid.jpg" class="img-fluid " id="img3">
+
+      </div>
+    </div>
+
+    <div class="row">
+      <hr>
+      <div class="col-md-6 img4" id="card-five">
+        <img src="../Logo/mid3.jpg" class="img-fluid .shake" id="img2">
+
+      </div>
+      <div class="col-md-5 ms-4" id="card-six">
+        <p class="p14">EVOLVE TOGETHER</p>
+
+        <p class="p15">You can push yourself further with Sweat FXBG. Our coaches are passionate and supportive, and 
+           our studio is outfitted with innovative lighting and sound systems to fuel your workout.</p>
+
+        <a class="nav-link" href="#">
+          <p class="p13">TRY SWEAT<i class="fa-solid fa-chevron-right " id="icon2">
+
+            </i>
+          </p>
+        </a>
+        <hr>
+
+      </div>
+      <hr>
+
+      <!-- no one is you -->
+
+      <div class="row " style=" padding: 85px;  background-color: rgba(214, 235, 239, 0.769);">
+        <div class="col-md-12" id="texx">
+
+          <p id="p16">No one is you and that is your power.</p>
+        </div>
+      </div>
+
+
+      <!-- article section -->
+
+      <div class="div row pt-4 justify-content-evenly">
+
+        <p class="p17 mt-5 border" id="texx1">ARTICLES</p>
+        <div class="div col-md-3  border22 " id="set">
+          <p class="p19">The Body as an Independent Learning System</p>
+
+          <p class="p20">When you go down to the beach in Brazil, in addition to the amazing view, one sees a lot of
+            people playing two kinds of volleyball. The first version - the volleyball that you are familiar.The 
+             digestive system.</p>
+
+          <button class="btn btn-outline-primary radius1" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+            READ MORE
+          </button>
+
+          <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
+            aria-labelledby="staticBackdropLabel">
+
+            <div class="offcanvas-header">
+              <div class="row bg-info">
+                <h5 class="offcanvas-title" id="staticBackdropLabel">Muscles</h5>
+
+              </div>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div>
+                <p>There are three types of muscular movements: skeletal, smooth, and cardiac.
+                  Skeletal movement, initiated by the nervous system, is assured by the muscles attached to the
+                  skeleton. The digestive system, the bladder and blood vessels rely on the smooth muscle and the 
+                   heart functions with the cardiac muscle.</p>
+                <hr>
+
+                <div class="card border-primary mb-3 " style="max-width: 29rem;">
+
+                  <div class="card-header text-primary">#Heading</div>
+
+                  <div class="card-body text-primary">
+
+                    <h5 class="card-title">Digestive and urinary systems</h5>
+                    <p class="card-text">The mouth is the beginning of the digestive tract. As one goes down, one 
+                       finds the salivary glands, epiglottis, oesophagus, liver, stomach, gall-bladder, pancreas, 
+                        small intestine, large intestine, appendix, rectum, and the anus.
+
+                      In the mouth one finds the teeth which take care of biting and chewing and the tongue which 
+                       shape food into a readily swallowed bolus. The windpipe depends on the epiglottis, a flap of 
+                        cartilage at the root of the tongue, to become depressed during swallowing and cover it.
+
+
+                    </p>
+                  </div>
+                </div>
+                <hr>
+
+                <div class="card border-secondary mb-3" style="max-width: 29rem;">
+                  <div class="card-header text-danger">#Heading</div>
+                  <div class="card-body text-secondary">
+                    <h5 class="card-title">Lesson for humanity</h5>
+                    <p class="card-text">We find that while each of the systems of the body and the various organs 
+                      have specific roles to play in the body, they don't work in isolation. When a system or organ 
+                       finishes its work, it relies on the others to continue from where it left off. This also 
+                        depends on others to carry on the work. This interdependence helps the body to work in 
+                         perfect harmony and assure its survival.</p>
+                  </div>
+                </div>
+                <hr>
+                <hr>
+
+
+
+                <div class="card border-success mb-3" style="max-width: 29rem;">
+                  <div class="card-header text-success">#Heading</div>
+                  <div class="card-body text-success">
+                    <h5 class="card-title">FIGHTMYID</h5>
+                    <p class="card-text">As for the training, there will be no meaningless moves or over-pushing, 
+                       and you will have no chance to let your determination go astray. Regardless of your level, 
+                        our experienced trainers make sure that you will be trained and prepared like a real 
+                         fighter. The best 1-on-1 training comes with systematic break-down of techniques and 
+                        fighting strategies to suit the training required by both beginners and more skilful 
+                        fighters..</p>
+                  </div>
+                </div>
+                <hr>
+
+                <div class="card border-danger mb-3" style="max-width: 29rem;">
+                  <div class="card-header text-info">#Heading</div>
+                  <div class="card-body text-danger">
+                    <h5 class="card-title">Independent</h5>
+                    <p class="card-text">In the art of Brazilian Jiu Jitsu there is absolutely no use of hitting 
+                       with hands or any kind of kicking. Since this is a method of combat, it would seem that this 
+                      limits the method and practitioners from being useful...</p>
+                  </div>
+                </div>
+                <hr>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <!-- second -->
+
+        </div>
+        <div class="div col-md-3 border22 " id="set1">
+          <p class="p19">The Body as an Independent Learning System </p>
+
+          <p class="p20">In the art of Brazilian Jiu Jitsu there is absolutely no use of hitting with hands or any 
+             kind of kicking. Since this is a method of combat, it would seem that this limits the method and 
+            practitioners from being useful...</p>
+
+          <button class="btn btn-outline-info radius1" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+            Read More
+          </button>
+
+          <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
+            aria-labelledby="staticBackdropLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="staticBackdropLabel">Offcanvas</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div>
+                I will not close if you click outside of me.
+              </div>
+            </div>
+          </div>
+
+
+
+
+        </div>
+        <div class="div col-md-3 border22 " id="set2">
+          <p class="p19">The Body as an Independent Learning System</p>
+
+          <p class="p20">In the art of Brazilian Jiu Jitsu there is absolutely no use of hitting with hands or any 
+             kind of kicking. Since this is a method of combat, it would seem that this limits the method...</p>
+
+          <button class="btn btn-outline-danger radius1" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Read More</button>
+
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" 
+          aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div class="offcanvas-header">
+                <div class="row bg-info">
+                  <h5 class="offcanvas-title" id="staticBackdropLabel">Our Interest</h5>
+  
+                </div>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <div>
+                  <p>There are three types of muscular movements: skeletal, smooth, and cardiac.
+                    Skeletal movement, initiated by the nervous system, is assured by the muscles attached to the
+                    skeleton. The digestive system, the bladder and blood vessels rely on the smooth muscle and the 
+                     heart functions with the cardiac muscle.</p>
+                  <hr>
+  
+                  <div class="card border-primary mb-3 " style="max-width: 29rem;">
+  
+                    <div class="card-header text-primary">#Heading</div>
+  
+                    <div class="card-body text-primary">
+  
+                      <h5 class="card-title">Digestive and urinary systems</h5>
+                      <p class="card-text">The mouth is the beginning of the digestive tract. As one goes down, one 
+                        finds the salivary glands, epiglottis, oesophagus, liver, stomach, gall-bladder, pancreas, 
+                         small intestine, large intestine, appendix, rectum, and the anus. In the mouth one finds 
+                         the teeth which take care of biting and chewing and the tongue which shapes food into a 
+                          readily swallowed bolus.The windpipe depends on the epiglottis, a flap of cartilage at the 
+                           root of the tongue, to become depressed during swallowing and cover it.
+  
+  
+                      </p>
+                    </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="container-fluid-md mt-3">
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+
+
+      <!-- fightmind -->
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../Logo/lowbn.jpg" class="d-block w-100  img-fluid" style="height:630px ;">
+          <div class="carousel-caption  d-md-block">
+            <div class="box2 ">
+              <p class="p21"> #FIGHTMYID</p>
+              <p class="p22">As for the training, there will be no meaningless moves or over-pushing, and you will have
+                no chance to let your determination go astray. Regardless of your level, our experienced trainers make
+                sure that you will be trained and prepared like a real fighter. The best 1-on-1 training comes with
+                systematic break-down of techniques and fighting strategies to suit the training required by both
+                beginners and more skilful fighters.
+              </p>
+              <p class="p23">To guarantee consistency in the quality of training delivered by each trainer, each of our
+                trainers has completed 100 hours of trainings on boxing techniques, pad works, bag works and coaching
+                methodologies with our founder and master trainer. No similar system has ever been deployed for any
+                boxing studio.</p>
+
+
+              <button type="button" href="aboutus.html" class="btn btn-outline-info sizebt">Read more</button>
+
+
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+      </div>
+    </div>
+  </div>
+
+<!-- Let's Connect -->
+
+  <div class="container-fluid">
+    <div class="row mt-5 ">
+      <p class="p24">Let's Connect</p>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row mt-5 ">
+      <div class="div col-md-4">
+
+        <div class="card card1 img4" style="width: 100%;">
+          <img src="../Logo/low3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Our <span style="color: red; font-weight: 600;"> MISSION </span>is to create a positive
+              and meaningful experience that will enhance the lives of athletes. ZYM plays an important role in athletes
+              from all over the world. ZYM is the essential fuel for your body’s engine to get hydrated: The secret
+              weapon for training and competition. We want you to better your best.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="div col-md-4">
+        <div class="card card1 img4" style="width: 100%;">
+          <img src="../Logo/low2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Our <span style=" color: black; font-weight: 700;"> VISION</span> is to be the most
+              premier brand for athletes in the sport nutrition industry. A ZYM bottle in every gym bag. As our company
+              grows, it starts to become more important to tell our clients what we believe in and what we value. Over
+              the next few months, updating them to give you a better idea of what we’re about. Stay tuned.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="div col-md-4">
+        <div class="card card1 img4" style="width: 100%;">
+          <img src="../Logo/low4.jpg" class="card-img-top">
+          <div class="card-body">
+            <p class="card-text"><span style="color:black; font-weight: 700;">ZYM</span> is a portable electrolyte
+              tablet designed to prevent dehydration and muscle burn. ZYM is dedicated to improving the performance in
+              athletes of all levels. Contact us at When going to the gym becomes a part of your daily routine,
+              especially if you work at the same time every day, and perhaps one of them will grab your eye.<span
+                style="color: red; font-weight: 700;">info@My Fitness.com</span> .</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <!-- sliding -->
+
+  <div class="container11">
+
+    <div class="box4">
+      <img src="../Logo/slide1 (1).jpg" class="img5">
+      <span>fitness</span>
+    </div>
+    <div class="box4 ">
+      <img src="../Logo/slide1 (2).jpg" class="img5">
+      <span>About All</span>
+    </div>
+    <div class="box4">
+      <img src="../Logo/slide5.jpg " class="img5">
+      <span>Our Health</span>
+    </div>
+    <div class="box4">
+      <img src="../Logo/slide6.jpg" class="img5">
+      <span>Crossfit</span>
+    </div>
+  </div>
+
+
+  <!-- plane and Pricing -->
+
+
+  <div class="row bgprice" style="padding:60px;">
+    <p class="p25"> PLANS & PRICING</p>
+  </div>
+
+
+<!-- Price Plane -->
+
+  <div class="container-fluid">
+    <div class="row mt-5" style="padding: 70px">
+      <p class="p26">Choose Your Pricing Plan</p>
+
+
+    </div>
+  </div>
+
+  <div class="row justify-content-evenly">
+    <div class="div col-md-3">
+
+      <div class="card border-success mb-3 card1 card2" style="max-width: 100%;">
+        <div class="card-header bg-transparent border-success">
+          <span class="p27">Unlimited Member</span>
+        </div>
+        <div class="card-body text-success">
+          <h5 class="card-title">
+            <span class="p28">$ 159</span>
+          </h5>
+          <p class="card-text p29">
+            Every Month
+          </p>
+
+          <p class="p30">Unlimited Plan wall perks *No<br>
+            Contract</p>
+
+          <button type="button" class="btn btn-outline-success size1">LET'S DO IT!</button>
+
+        </div>
+        <div class="card-footer bg-transparent border-success">
+          <p>Unlimited Classes</p>
+          <p> Fitness assessment</p>
+          <p>Personalized Macros Diet Plan w/ Dietitian</p>
+          <p>locker and shower</p>
+
+
+        </div>
+      </div>
+
+
+
+    </div>
+    <div class="div col-md-3">
+
+      <div class="card border-success mb-3 card1 card2" style="max-width: 100%;">
+        <div class="card-header bg-transparent border-success">
+          <span class="p27">Gold Membership</span>
+        </div>
+        <div class="card-body text-success">
+          <h5 class="card-title">
+            <span class="p28">$ 89.99</span>
+          </h5>
+          <p class="card-text p29">
+            Every Month
+          </p>
+
+          <p class="p30">8 classes a month + Perks *NO CONTRACT</p>
+
+          <button type="button" class="btn btn-outline-success size1">LET'S DO IT!</button>
+
+        </div>
+        <div class="card-footer bg-transparent border-success">
+          <p>Unlimited Classes</p>
+          <p> Fitness assessment</p>
+          <p>Personalized Macros Diet Plan w/ Dietitian</p>
+          <p>locker and shower</p>
+
+
+        </div>
+
+
+
+      </div>
+    </div>
+    <div class="div col-md-3">
+      <div class="card border-success mb-3 card1 card2" style="max-width: 100%;">
+        <div class="card-header bg-transparent border-success">
+          <span class="p27">GOLD W/7DAY FrTrl</span>
+        </div>
+        <div class="card-body text-success">
+          <h5 class="card-title">
+            <span class="p28">$ 89.99</span>
+          </h5>
+          <p class="card-text p29">
+            Every Month
+          </p>
+
+          <p class="p30">Try us out before you Buy!</p>
+          <p class="text-muted">7 day free trial</p>
+
+          <button type="button" class="btn btn-outline-success size1">LET'S DO IT!</button>
+
+        </div>
+        <div class="card-footer bg-transparent border-success">
+          <p>Unlimited Classes</p>
+          <p> Fitness assessment</p>
+          <p>Personalized Macros Diet Plan w/ Dietitian</p>
+          <p>locker and shower</p>
+
+
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+    <!--  -->
+
+    <div class="row justify-content-evenly">
+      <div class="div col-md-3">
+
+        <div class="card border-success mb-3 card1 card2" style="max-width: 100%; ">
+          <div class="card-header bg-transparent border-success">
+            <span class="p27">Yoga and Barre Plan</span>
+          </div>
+          <div class="card-body text-success">
+            <h5 class="card-title">
+              <span class="p28">$ 19.99</span>
+            </h5>
+            <p class="card-text p29">
+              Every Week
+            </p>
+
+            <p class="p30">Mix and Match 2 of any yoga and barre classes a week.</p>
+
+            <button type="button" class="btn btn-outline-success size1">LET'S DO IT!</button>
+
+          </div>
+          <div class="card-footer bg-transparent border-success">
+            <p>2 yoga or barre classes a week</p>
+            <p> showers, towels,props, and mats provided</p>
+
+
+          </div>
+        </div>
+
+
+
+      </div>
+      <div class="div col-md-3">
+
+        <div class="card border-success mb-3 card1 card2" style="max-width: 100%;">
+          <div class="card-header bg-transparent border-success">
+            <span class="p27">Child Watch 10 Pack</span>
+          </div>
+          <div class="card-body text-success">
+            <h5 class="card-title">
+              <span class="p28">$ 24.99</span>
+            </h5>
+
+
+            <p class="p30">Child Watch 30 Pack</p>
+            <br>
+
+            <button type="button" class="btn btn-outline-success size1 mgin">LET'S DO IT!</button>
+
+          </div>
+          <div class="card-footer bg-transparent border-success">
+            <p>10 sessions (per use NOT per kid)*Doesn't Expire</p>
+
+
+          </div>
+
+
+
+        </div>
+      </div>
+      <div class="div col-md-3">
+        <div class="card border-success mb-3 card1 card2" style="max-width: 100%;">
+          <div class="card-header bg-transparent border-success">
+            <span class="p27">Child Watch 30 Pack</span>
+          </div>
+          <div class="card-body text-success">
+            <h5 class="card-title">
+              <span class="p28">$ 39.99</span>
+            </h5>
+
+
+            <p class="p30">Try us out before you Buy!</p>
+            <p class="text-muted">30 Childwatch Sessions *Doesn't Expire</p>
+
+            <button type="button" class="btn btn-outline-success size1 mgin1">Start Free Trial</button>
+
+          </div>
+          <div class="card-footer bg-transparent border-success">
+            <p>30 child watch sessions (1 use per class NOT per kid)</p>
+
+
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- footer start -->
+
+      <div class="footer" style="background-color: #333;">
+
+
+        <div class="row justify-content-evenly">
+
+          <div class="div col-md-4 " style=" height: 400px;">
+
+
+            <img src="../Logo/footer.png" style="width: 70px; height: 70px; margin-top: 17px;">
+
+            <p class="p31"> Find all your health & fitness information right here. We have a large selection of
+              exercises, fitness articles , and healthy recipes to choose from. If you are looking for advice, look no
+              further than one of our forums with specialization in Weight Loss, Training, and Body Building. Want to
+              know your BMI? Have a look at one of many fitness tools</p>
+
+          </div>
+          <div class="div col-md-2 tik">
+            <ul class="limar">
+
+              <h2 class="head">Fitness</h2>
+
+              <div class="mrginli">
+                <li>Workout Planes</li>
+                <li>Workout Videos</li>
+                <li>Top Recipes</li>
+                <li>Fitness Articles</li>
+                <li>Fitness Calculater</li>
+
+            </ul>
+
+
+
+          </div>
+          <div class="div col-md-2 tik">
+
+            <h2 class="head">Shop</h2>
+
+            <ul class="limar">
+
+              <div class="mrginli">
+                <li>Shop</li>
+                <li>Best Seller</li>
+                <li>Trending Product</li>
+                <li>Staff's Pick</li>
+            </ul>
+
+          </div>
+          <div class="div col-md-2 tik">
+
+            <h2 class="head">Company</h2>
+
+            <ul class="limar">
+
+              <div class="mrginli">
+                <li>Terms of Service</li>
+                <li>Privacy Policy</li>
+                <li>Legal Notice</li>
+
+                <form action="#">
+                  <input type="text" placeholder="Your Email" class="forinput">
+                  <button type="submit" class="mmm"> <i class="fa fa-envelope" arial-hidden="true"></i></button>
+                </form>
+
+            </ul>
+
+
+          </div>
+
+
+        </div>
+
+        <div class="row bg-dark">
+          <div class="col-md-12">
+            <p class="p32">Copyright &copy; 2022 All rights reserved | This template is made with <i
+                class="fa-regular fa-heart iconc"></i> by <a href="# " class="al"> <span style="color:red;">Fantacy
+                  Designs</span></a></p>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <script> 
+
+      $(document).ready(function()
+      {
+        $(window).scroll(function()
+
+        {
+          var positiontop=$(document).scrollTop();
+          console.log(positiontop);
+
+          if((positiontop>10)&& (positiontop<523)){
+            $('#card-one').addClass('animate__animated animate__bounceInLeft');
+            $('#card-tw').addClass('animate__animated animate__backInRight');
+          }
+
+          if((positiontop>500)&&(positiontop>833)){
+            $('#card-three').addClass('animate__animated animate__bounceInLeft');
+            $('#card-four').addClass('animate__animated animate__backInRight');
+          
+          }
+
+          if((positiontop>800)&&(positiontop>1717)){
+            $('#card-five').addClass('animate__animated animate__bounceInLeft');
+            $('#card-six').addClass('animate__animated animate__backInRight');
+          
+          }
+
+          if((positiontop>800)&&(positiontop>2500)){
+            $('#texx').addClass('animate__animated animate__zoomInDown');
+    
+          
+          }
+
+          if((positiontop>800)&&(positiontop>2760)){
+            $('#texx1').addClass('animate__animated animate__rubberBand');
+    
+          
+          }
+
+          if((positiontop>2000)&&(positiontop>2880)){
+            $('#set').addClass('animate__animated animate__zoomInLeft');
+            $('#set1').addClass('animate__animated animate__zoomInRight');
+            $('#set2').addClass('animate__animated animate__zoomInUp');
+    
+          
+          }
+
+        });
+
+      });
+
+
+
+  </script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

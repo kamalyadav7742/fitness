@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+html,body{
+    scroll-behavior: smooth;
+    width: 100%;
+    overflow-x:hidden;
+}
+
+
+/* set entire body that is webpage */
+body{
+	background: #383a3d;
+	padding-top: 25vh;	
+}
+/* set form background colour*/
+form{
+	background: #fff;
+}
+/* set padding and size of th form */
+.form-container{
+	border-radius: 10px;
+	padding: 30px;
+}
+
+.label{
+  margin-top: 20px;
+}

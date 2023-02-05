@@ -1,0 +1,174 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+html,body{
+    scroll-behavior: smooth;
+    width: 100%;
+    overflow-x:hidden;
+}
+
+.img1{width: 100px;
+
+}
+
+.icon{
+font-size: 20px;
+color: white;
+text-align: start;
+
+}
+
+.word{
+color: white;
+}
+
+.p{
+
+color: rgba(235, 218, 218, 0.635);  }
+
+
+.navbar-brand {
+padding-top: var(--bs-navbar-brand-padding-y);
+padding-bottom: var(--bs-navbar-brand-padding-y);
+margin-right: var(--bs-navbar-brand-margin-end);
+font-size: var(--bs-navbar-brand-font-size);
+color: var(--bs-navbar-brand-color);
+text-decoration: none;
+white-space: nowrap;
+margin-left: 10px;
+}
+
+li.nav-item {
+width: 117px;
+height: 51px;
+/* border: 1px solid rgb(0, 255, 34); */
+text-align: center;
+
+}
+
+.box1{
+width: 90%;
+height: 70%;
+/* border: 2px solid red; */
+float: left;
+/*margin: auto;*/
+text-align: center;
+margin-top: -65%;
+margin-left: 9%;
+font-weight:600;
+}
+.p3{
+font-size: 60px;
+}
+
+
+.p4{
+font-size: 40px;
+font-weight: lighter;
+letter-spacing: 10px;
+}
+
+
+.p7{
+font-size: 60px;
+margin-top: 140px;
+}
+
+.p8{
+font-size: 20px;
+font-weight: lighter;
+letter-spacing: 10px;
+}
+
+
+.sizebt{
+width: 165px;
+height: 43px;
+margin-top: 10px;
+
+}
+
+.sizebt1{
+width: 165px;
+height: 43px;
+margin-top: 15px;
+
+}
+
+/* contact */
+
+#p1{
+color: black;
+font-size: 40px;
+text-align:start;
+font-weight: 400;
+}
+
+#p2{
+
+color: black;
+font-size: 40px;
+text-align:start;
+font-weight: 400;
+
+}
+
+.tt ul li{
+list-style: none;
+line-height: 40px;
+}
+
+
+.spc{
+color: black;
+font-size: 20px;
+font-weight: 500px;
+}
+
+
+#p3{
+margin-top: 10px;
+}
+
+#p4{
+text-align: center;
+margin-top: 20px;
+
+}
+#p5{
+    color: black;
+    font-size: 17px;
+    
+}
+#p6{
+    color: black;
+    font-size: 17px;
+    margin-top: 13px;
+    
+}
+
+.btn1{
+float: right;
+margin-top: 20px;
+width: 100px;
+}
+
+.ipc{
+color: #dc3545!important;
+font-size: 40px;
+letter-spacing: 20px;
+margin-top: 60px;
+}
+
+.d-none {
+display: block!important;
+}
+
+.lii ul li p:hover{
+    color: #dc3545;
+   
+}

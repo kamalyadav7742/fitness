@@ -1,0 +1,225 @@
+
+    *{
+      margin: 0px;
+      padding: 0px;
+  
+  }
+  
+  html,body{
+      scroll-behavior: smooth;
+      width: 100%;
+      overflow-x:hidden;
+  }
+    
+    
+    .navbar {
+      --bs-navbar-padding-y: 1.5rem;
+      --bs-navbar-brand-margin-end: 11rem;
+      --bs-navbar-nav-link-padding-x: 1.5rem;
+    }
+
+    .cl {
+      color: white;
+    }
+
+    /* price */
+
+
+    .p25 {
+      text-align: center;
+      color: black;
+      font-size: 45px;
+      font-weight: unset;
+      word-spacing: 6px;
+      letter-spacing: 6px;
+
+    }
+
+    .p26 {
+      text-align: center;
+      color: black;
+      font-size: 40px;
+      font-weight: 350;
+      letter-spacing: 6px;
+      word-spacing: 5px;
+    }
+
+
+
+    /* price started */
+    .p27 {
+      text-align: center;
+      font-size: 20px;
+      color: black;
+
+    }
+
+    .p28 {
+      color: black;
+      font-size: 50px;
+      font-weight: 700;
+    }
+
+    .p29 {
+      font-size: 16px;
+      color: black;
+      font-weight: 300;
+
+
+    }
+
+    .p30 {
+      font-size: 18px;
+      color: black;
+      font-weight: 400;
+    }
+
+    .card1 {
+      --bs-card-border-radius: 0rem;
+      --bs-card-border-width: 1px;
+    }
+
+
+    .card2:hover {
+      background-color: #3a764554;
+
+    }
+
+
+    .size1 {
+      width: 210px;
+      border-radius: 70px;
+      padding: 9px;
+    }
+
+    .bgprice {
+      background-color: rgb(139, 216, 189, 1)
+    }
+
+
+
+    /* footer input */
+
+    .p {
+      color: #b7b7b7;
+    }
+
+
+
+    .forinput {
+      width: 100%;
+      font-size: 15px;
+      color: #ffffff;
+      background: transparent;
+      border: none;
+      padding: 15px 0;
+      border-bottom: 2px solid #ffffff;
+    }
+
+    .placeholder {
+      color: #b7b7b7;
+    }
+
+    .forebutton {
+      color: #b7b7b7;
+      font-size: 16px;
+      position: absolute;
+      right: 5px;
+      top: 0;
+      height: 100%;
+      background: transparent;
+      border: none;
+    }
+
+
+    /* footer input end */
+
+
+    /* footer start */
+
+    .p31 {
+      font-size: 16px;
+      text-align: start;
+      color: white;
+      margin-top: 17px;
+
+    }
+
+    .p32 {
+      text-align: center;
+      color: white;
+      margin-top: 14px;
+    }
+
+    .al {
+      text-decoration: none;
+    }
+
+    .iconc {
+      color: red;
+    }
+
+
+    .tik ul li {
+      list-style: none;
+      line-height: 36px;
+      color: rgba(255, 255, 255, 0.699);
+
+
+
+    }
+
+    .tik ul li:hover {
+      color: red;
+
+    }
+
+    .limar {
+      margin-left: -30px;
+
+    }
+
+    .mrginli {
+      margin-top: 50px;
+    }
+
+    .head {
+      color: white;
+      font-weight: 300;
+      margin-top: 10px;
+
+    }
+
+
+
+
+    /* footer end */
+
+    @media only screen and (max-width: 277px) {
+
+      /* For mobile phones: */
+      [class*="size1"] {
+        width: 100%;
+        text-align: center;
+
+      }
+
+    }
+
+    @media only screen and (max-width: 278px) {
+
+      /* For mobile phones: */
+      [class*="pc"] {
+
+        text-align: center;
+        font-size: 25px;
+
+      }
+
+    }
+
+    .navbar {
+
+      --bs-navbar-brand-margin-end: 1rem;
+
+    }
